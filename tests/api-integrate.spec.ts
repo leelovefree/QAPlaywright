@@ -29,7 +29,7 @@ test.beforeAll(async()=>{
 
 })
 
-test.only('Client App login', async ({page})=>{
+test('Client App login', async ({page})=>{
     const selectedProduct  = 'ZARA COAT 3'
     /*
     await page.goto('https://rahulshettyacademy.com/client')
