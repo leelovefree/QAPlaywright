@@ -12,7 +12,7 @@ test('@App login', async ({page})=>{
     
     const productsList = await page.locator('.card-body b').allTextContents()
     console.log(productsList)
-
+    // make some changes
     const count = await products.count()
     
     for(let i=0; i < count; i++){
